@@ -1,0 +1,48 @@
+package Vetor;
+
+import java.util.Scanner;
+
+public class Ex4_11_09_20 {
+
+	public static void main(String[] args) {
+		
+		int [][] M1 = new int [2] [2];
+		int [][] M2 = new int [2] [2];
+		Scanner ler = new Scanner(System.in);
+		int cont=0;
+		
+		
+		for (int x=0; x<2; x++) //Correr o X pela linha
+		{
+			
+			
+			for (int y=0; y<2; y++) // Correr o Y pela coluna
+				
+			{
+				System.out.printf("Entre com o numero: ");
+				M1 [x][y] = ler.nextInt();
+				
+			}
+			
+		}
+		
+		// Estrutura da segunda matriz 
+		for (int x=0; x<2; x++) //Correr o X pela linha
+		{
+			
+			
+			for (int y=0; y<2; y++) // Correr o Y pela coluna
+				
+			{
+				System.out.printf("Entre com o numero: ");
+				M2 [x][y] = ler.nextInt();
+				
+			}
+			
+		}
+		
+		System.out.printf("(1) - Somar as duas Matrizes \n (2) subtrair a primeira matriz da segunda \n ");
+		
+
+}
+}

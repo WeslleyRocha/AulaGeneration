@@ -1,0 +1,27 @@
+package Vetor;
+
+import java.util.Scanner;
+
+public class Ex01_11_09_20 {
+
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		
+		int[] A = {1, 0, 5, -2, -5, 7};
+		int soma;
+		
+		soma = A[0] + A[1] + A[5];
+
+		System.out.println("O valor da soma das variaveis A[0] A[1] e A[5] são: " + soma);
+		
+		A[3] = 100;
+		
+		for (int i=0; i<6; i++ ) 
+		{
+		//for (int i : A)
+		System.out.println("O valor da Array é: " + A[i]+ " que esta na " + i );
+		}
+	}
+
+}

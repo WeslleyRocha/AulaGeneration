@@ -1,0 +1,30 @@
+package Turma9;
+
+import java.util.Scanner;
+
+public class Ex02_11_09_20 {
+
+	public static void main(String[] args) {
+		
+		Scanner ler = new Scanner(System.in);
+		int[] pares = new int[6];
+		int x;
+		
+		for (x=1; x<=6; x++)
+		{
+		System.out.println("Informe 6 numeros: ");
+		
+		
+		pares [x] = ler.nextInt();
+			
+		
+		if (pares[x]%2==0)
+		{
+			System.out.println("Numeros pares digitados foi: " + pares);
+		}
+		
+		}
+		
+	}
+
+}
