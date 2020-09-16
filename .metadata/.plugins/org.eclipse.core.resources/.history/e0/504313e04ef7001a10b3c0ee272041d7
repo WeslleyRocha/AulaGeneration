@@ -1,0 +1,11 @@
+package Classes_e_Obejetos;
+
+public class Programa_Casa {
+		
+	public static void main (String args[]) 
+	
+	{
+		Casa LocalCasa = new Casa ("Rua das Flores","Teste" ,"kk");
+		System.out.println(LocalCasa.getEnderecoCompleto());
+	}
+}

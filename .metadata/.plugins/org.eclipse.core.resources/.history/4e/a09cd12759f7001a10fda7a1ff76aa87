@@ -1,0 +1,12 @@
+package Classes_e_Obejetos_Aviao;
+
+public class Prog_Aviao {
+
+	public static void man (String args[])
+	
+	{
+		Aviao_15_09_20 aviao2 = new Aviao_15_09_20 ("Francco", "MatehusBl" , 130);
+		System.out.println(aviao2.getaviao1());
+	}
+	 
+}

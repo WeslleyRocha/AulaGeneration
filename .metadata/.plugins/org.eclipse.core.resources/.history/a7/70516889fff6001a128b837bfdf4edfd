@@ -1,0 +1,21 @@
+package Classes_e_Obejetos;
+
+public class Casa {
+	
+	private String logradouro;
+	private String proprietario;
+	private int lote;
+	
+	public Casa (String endereco, String donoDoImovel, int tamanhoLote)
+	{
+		logradouro =  endereco;
+		proprietario = donoDoImovel;
+		lote = tamanhoLote;
+	}
+	
+	public String getEnderecoCompleto ()
+	{
+		String EnderecoCompleto = logradouro;
+		return EnderecoCompleto;
+	}
+}

@@ -1,0 +1,20 @@
+package Classes_e_Obejetos;
+
+public class Casa_15_09_20 {
+	
+	private String logradouro;
+	
+	
+	public Casa (String endereco)
+	{
+		logradouro =  endereco;
+		
+	}
+	
+	public String getEnderecoCompleto ()
+	{
+		String EnderecoCompleto = logradouro;
+		return EnderecoCompleto;
+	}
+	
+}

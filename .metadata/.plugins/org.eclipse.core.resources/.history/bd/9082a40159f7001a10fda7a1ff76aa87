@@ -1,0 +1,23 @@
+package Classes_e_Obejetos;
+
+public class Aviao_15_09_20 {
+
+	private String piloto;
+	private String copiLoto;
+	private int numPassageiros;
+	
+	
+	public Aviao_15_09_20 (String piloto, String copiLoto,int numPassageiros)
+	
+	{
+		this.piloto = piloto;
+		this.copiLoto = copiLoto;
+		this.numPassageiros = numPassageiros;		
+	}
+	
+	public String getaviao1()
+	{
+		String aviao1 = piloto + " " + copiLoto + " " + numPassageiros + " ";
+		return aviao1;
+	}
+}

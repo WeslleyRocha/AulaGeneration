@@ -1,0 +1,14 @@
+package Classes_e_Obejetos;
+
+public class Pro_Eletronico {
+
+	public static void main(String[] args) 
+	{
+		Eletronico produtos = new Eletronico (" Francco - Celular", "S10Plys", "3.000" , "5578446510");
+		Eletronico produtos = new Eletronico (" Francco - Celular", "S10Plys", "3.000" , "5578446510");
+		Eletronico produtos = new Eletronico (" Francco - Celular", "S10Plys", "3.000" , "5578446510");
+		System.out.println(produtos.gateletronicos());
+				
+	}
+
+}
