@@ -1,0 +1,28 @@
+package Herança_Polimorfismo;
+
+public class Cavalo_Classe_Filha extends Animal_Classe_Mãe {
+
+	private String correr;
+	
+	public Cavalo_Classe_Filha (String nome, String som, int idade, String correr)
+	
+	{
+		super (nome, som, idade);
+		this.correr=correr;		
+	}
+
+	public String getCorrer() {
+		return correr;
+	}
+
+	public void setCorrer(String correr) {
+		this.correr = correr;
+	}
+	
+	public void som()
+	{
+		System.out.println("  Gr Gr Gr... ");
+	}
+	
+	
+}

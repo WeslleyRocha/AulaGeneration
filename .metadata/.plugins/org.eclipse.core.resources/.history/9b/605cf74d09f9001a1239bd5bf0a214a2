@@ -1,0 +1,42 @@
+package Herança_Polimorfismo;
+
+public class Teste_Animal_Classe_Mãe {
+	
+	public static void main  (String args[])
+	
+	{
+		Cachoro_Classe_Filha cachorro = new Cachoro_Classe_Filha();
+		cachorro.setNome("Thor");
+		cachorro.setIdade(7);
+		cachorro.setSom("Au Au");
+		cachorro.setCorrer("Corre muitoooo...");
+				
+		System.out.print(cachorro.getNome());
+		System.out.print("\n\n********************************");
+		
+		//
+		
+		Cavalo_Classe_Filha cavalo = new Cavalo_Classe_Filha();
+		cavalo.setNome("MTBL");
+		cavalo.setIdade(3);
+		cavalo.setSom("Riiiii Riiii");
+		cavalo.setCorrer("Corre rapidãooo...");		
+		
+		System.out.print(cavalo.getNome());
+		System.out.print("\n\n********************************\n\n");
+		
+		//
+		
+		Preguica_Classe_Filha preguica = new Preguica_Classe_Filha();
+		preguica.setNome("FRLF");
+		preguica.setIdade(26);
+		preguica.setSom("Xiiiiiii Xiiiiiiii ");
+		preguica.setSubirArvores("Dorme de mais...");		
+		
+		System.out.print(cavalo.getNome());
+		System.out.print("\n\n********************************\n\n");
+		
+	}
+	
+
+}

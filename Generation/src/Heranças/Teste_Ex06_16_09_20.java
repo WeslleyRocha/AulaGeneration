@@ -4,7 +4,7 @@ public class Teste_Ex06_16_09_20 {
 
 	public static void main(String[] args) {
 		
-		Ex06_16_09_20 pessoa = new Ex06_16_09_20 ("Franco", "LaFenina", "123456", "123456", 20 , 5 );
+		Ex06_16_09_20 pessoa = new Ex06_16_09_20 ("Franco", "LaFenina", "123456", "123456", 20 , 5.62 );
 		Ex06_16_09_20 pessoa1 = new Ex06_16_09_20 ("Matheus", "Belo", "45689656", "123456", 11 , 4.60);
 		Ex06_16_09_20 pessoa2 = new Ex06_16_09_20 ("Alex", "Menino", "546786", "123456", 15.99 , 7.60);
 		Ex06_16_09_20 pessoa3 = new Ex06_16_09_20 ("Weslley", "Rocha", "6465456", "123456", 78.80 , 7.90);

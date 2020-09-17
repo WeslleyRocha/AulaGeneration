@@ -1,0 +1,15 @@
+package Herança_Polimorfismo;
+
+public class Teste_Animal_Classe_Mãe {
+	
+	public static void main  (String args[])
+	
+	{
+		Cachoro_Classe_Filha cachorro = new Cachoro_Classe_Filha("Thor", " Au Au... ", 7, "Corre");
+		
+		System.out.print(cachorro);
+		
+	}
+	
+
+}

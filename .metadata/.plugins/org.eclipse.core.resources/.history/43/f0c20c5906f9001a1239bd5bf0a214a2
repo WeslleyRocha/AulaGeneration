@@ -1,0 +1,22 @@
+package Herança_Polimorfismo;
+
+public class Cachoro_Classe_Filha extends Animal_Classe_Mãe {
+
+	private String correr;
+	
+	public Cachoro_Classe_Filha ()
+	
+	{
+		super ();
+		this.correr=correr;		
+	}
+
+	public String getCorrer() {
+		return correr;
+	}
+
+	public void setCorrer(String correr) {
+		this.correr = correr;
+	}
+	
+}

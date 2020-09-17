@@ -1,0 +1,21 @@
+package Herança_Polimorfismo;
+
+public class Teste_Animal_Classe_Mãe {
+	
+	public static void main  (String args[])
+	
+	{
+		Cachoro_Classe_Filha cachorro = new Cachoro_Classe_Filha();
+		cachorro.setSom(" Au Au... ");
+		cachorro.setIdade(7);
+		cachorro.setNome("Thor");
+		
+		
+		System.out.print(cachorro.getNome());
+		System.out.print(cachorro.getSom());
+		System.out.print(cachorro.getIdade());
+		System.out.print(cachorro.getCorrer());
+	}
+	
+
+}

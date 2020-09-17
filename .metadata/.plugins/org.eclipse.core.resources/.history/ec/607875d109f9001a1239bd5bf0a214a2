@@ -1,0 +1,39 @@
+package Herança_Polimorfismo;
+
+public class Preguica_Classe_Filha extends Animal_Classe_Mãe {
+
+	private String subirArvores , som;
+	
+	public Preguica_Classe_Filha ()
+	
+	{	super();
+		this.subirArvores=subirArvores;		
+	}
+
+	public String getSubirArvores()
+	{
+		return subirArvores;
+	}
+
+	public String getSom()
+	{
+		return som;
+	}
+
+	public void setSom(String som)
+	{
+		this.som = som;
+	}
+
+	public void setSubirArvores(String subirArvores)
+	{
+		this.subirArvores = subirArvores;
+	}
+	
+	public String getNome()
+	{
+		return "\n  Nome do seu preguiça é: " + super.getNome() + "\n  Ele tem: " + super.getIdade() + " Anos... \n  O som que ele faz é: " +
+		this.getSom() + "\n  Ele " + this.getSubirArvores() + "\n";
+	}
+	
+}
