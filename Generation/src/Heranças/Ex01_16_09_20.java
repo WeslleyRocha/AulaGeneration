@@ -1,0 +1,70 @@
+package Heranças;
+
+public class Ex01_16_09_20 {
+	
+	//Declaração de Variaveis. 
+	private String nome;
+	private String sobrenome;
+	private String CPF;
+	private String Rg;
+	
+	public Ex01_16_09_20 (String nome, String sobrenome, String CPF, String Rg)
+	{
+		//Metodos 
+		this.nome=nome;
+		this.sobrenome=sobrenome;
+		this.CPF=CPF;
+		this.Rg=Rg;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+			
+	}
+
+	public String getSobrenome() {
+		return sobrenome;
+	}
+
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
+	}
+
+	public String getCPF() {
+		return CPF;
+	}
+
+	public void setCPF(String cPF) {
+		CPF = cPF;
+	}
+
+	public String getRg() {
+		return Rg;
+	}
+
+	public void setRg(String rg) {
+		Rg = rg;
+	}
+	
+	public void mostraTela()
+	{
+		System.out.println("\nNome do Cliente: " + getNome() + " " + getSobrenome() + " " + "CPF:"+getCPF());
+	}
+
+	public void saldo() {
+		
+		
+	}
+
+	public void ValoresVendas() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+}

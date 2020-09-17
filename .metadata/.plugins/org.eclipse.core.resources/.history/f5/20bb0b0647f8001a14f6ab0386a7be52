@@ -1,0 +1,36 @@
+package Heranças;
+
+public class Ex02_16_09_20 extends Ex01_16_09_20 {
+
+	private double divida, credito;
+	
+	public Ex02_16_09_20(double divida, double credito,String nome, String sobrenome, String CPF, String RG )
+	{
+		super (nome,sobrenome,CPF,RG);
+		
+	}
+
+	public double getDivida() {
+		return divida;
+	}
+
+	public void setDivida(double divida) {
+		this.divida = divida;
+	}
+
+	public double getCredito() {
+		return credito;
+	}
+
+	public void setCredito(double credito) {
+		this.credito = credito;
+	}
+	
+	public void saldo()
+	{		
+		double saldo = getDivida() - getCredito();
+		System.out.println("Valor do Saldo é:" + saldo);
+	}
+	
+		
+}

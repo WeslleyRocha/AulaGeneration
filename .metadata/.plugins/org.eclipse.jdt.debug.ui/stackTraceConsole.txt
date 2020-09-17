@@ -1,0 +1,6 @@
+public void saldo()
+	{		
+		double saldo = getDivida() - getCredito();
+		System.out.println("Valor do Saldo é: " + saldo);
+	}
+	

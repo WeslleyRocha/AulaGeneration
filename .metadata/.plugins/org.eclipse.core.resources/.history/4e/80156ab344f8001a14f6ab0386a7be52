@@ -1,0 +1,25 @@
+package Heranças;
+
+public class Teste_Ex01_16_09_20 {
+
+	public static void main(String[] args)
+	{
+		
+		Ex01_16_09_20 pessoa = new Ex01_16_09_20 ("Franco", "LaFenina", "123456", "123456");
+		Ex01_16_09_20 pessoa1 = new Ex01_16_09_20 ("Matheus", "Belo", "45689656", "123456");
+		Ex01_16_09_20 pessoa2 = new Ex01_16_09_20 ("Alex", "Menino", "546786", "123456");
+		Ex01_16_09_20 pessoa3 = new Ex01_16_09_20 ("Weslley", "Rocha", "6465456", "123456");
+		Ex01_16_09_20 pessoa4 = new Ex01_16_09_20 ("Vanessa", "Pereira", "6454656", "123456");
+		
+		
+		pessoa.mostraTela();
+		pessoa.saldo();
+		pessoa1.mostraTela();
+		pessoa2.mostraTela();
+		pessoa3.mostraTela();
+		pessoa4.mostraTela();
+		
+
+	}
+
+}
